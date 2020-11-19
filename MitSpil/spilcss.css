@@ -1,0 +1,67 @@
+#canvas{
+    border: 1px solid black; 
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 10%;
+    border: 1px solid black;
+    font-size: 14px;
+    background-color: green;
+    opacity: 70%;
+}
+
+#desc{
+    position: relative;
+    top: 50%;
+    left: 40%;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+#wintext{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+#gametext{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+#gameover{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+#tryagain{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.background{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+#btn{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border: 1px solid black;
+    border-radius: 12px;
+    opacity: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
